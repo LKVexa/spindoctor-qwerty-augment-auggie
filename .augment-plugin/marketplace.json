@@ -1,0 +1,16 @@
+{
+  "name": "spindoctor-qwerty-marketplace",
+  "description": "SpinDoctor Qwerty plugins for Auggie (classical quantum-circuit simulator, SpinDoctor 3.1.2 parity). GPL-3.0-or-later, (C) 2026 RUSSELL PHILIP SMITHSON.",
+  "version": "1.1.0",
+  "owner": {"name": "RUSSELL PHILIP SMITHSON", "email": "russellsmithson77@outlook.com"},
+  "plugins": [
+    {
+      "name": "spindoctor-qwerty",
+      "description": "SpinDoctor 3.1.2 quantum-circuit simulator (classical): q.* scripts, 241 presets, q.folder, theory testing, TXT/PDF reports.",
+      "version": "1.1.0",
+      "source": "./plugins/spindoctor-qwerty",
+      "category": "science",
+      "tags": ["quantum", "simulator", "mcp", "skills"]
+    }
+  ]
+}
