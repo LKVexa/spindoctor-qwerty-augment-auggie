@@ -58,4 +58,13 @@ was run against the copy.
 
 ## Post-push verification
 
-Recorded in the final commit of this file after the repository was cloned back from GitHub.
+After the push (content commit `6e9c35a`), the public repository was cloned back from GitHub into a fresh folder with an empty HOME:
+
+| Check | Result |
+|---|---|
+| Cloned tree vs staged tree | 56/56 files present, byte-identical, no extra files |
+| Real Auggie CLI: `auggie command list --plugin-dir <clone>` | 4 commands + skill listed |
+| `tests/auggie_host_check.py <clone>` | host checks 9/9, end-to-end 12/12 (PASS) |
+
+Commits are made through the GitHub connector and show the LKVexa account as committer. The author of the work is
+RUSSELL PHILIP SMITHSON <russellsmithson77@outlook.com> (see NOTICE and COPYRIGHT).
